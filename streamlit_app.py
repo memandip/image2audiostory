@@ -64,7 +64,7 @@ def text2speech(text, filename):
         "inputs": text
     }
     response = requests.post(API_URL, headers=headers, json=payload)
-    filepath = f"audios/{'output.flac' if filename is None else filename}"
+    filepath = 'output.flac' if filename is None else filename
     
     with open(filepath, "wb") as f:
         f.write(response.content)
