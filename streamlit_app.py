@@ -15,8 +15,6 @@ client = InferenceClient(
     token=HUGGINGFACE_API_TOKEN,
 )
 
-print(f"HUGGINGFACE_API_TOKEN: {HUGGINGFACE_API_TOKEN}")
-
 # replace local model with huggingface inference client
 # # image to text model
 # def image2text(url):
