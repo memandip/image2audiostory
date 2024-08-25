@@ -47,7 +47,7 @@ def generate_story(scenario):
     # Inference client load chat completion
     response = client.chat_completion(
         messages=[{"role": "user", "content": template}],
-        max_tokens=500,
+        max_tokens=100,
         # stream=True,
     )
 
