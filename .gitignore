@@ -166,3 +166,4 @@ cython_debug/
 audios/*
 *.png
 *.flac
+*.wav
